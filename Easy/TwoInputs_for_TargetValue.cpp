@@ -4,8 +4,8 @@ using namespace std;
 class Ok
 {
     public:
-    int No=0, posi1=0, posi2=0;
-    float tar=0.0, x=0.0, y=0.0, z=0.0;
+    int No= 0, posi1= 0, posi2= 0;
+    float tar= 0.0, x= 0.0, y= 0.0, z= 0.0;
     float a[999];
     void inptNo()
     {
@@ -40,8 +40,8 @@ class Ok
                 z=x+y;
                 if(z==tar)
                 {
-                    posi1=k;
-                    posi2=l;
+                    posi1= k;
+                    posi2= l;
                     break;
                 }
             }
