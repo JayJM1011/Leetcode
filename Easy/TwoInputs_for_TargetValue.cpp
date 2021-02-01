@@ -4,18 +4,18 @@ using namespace std;
 class Ok
 {
     public:
-    int i=0, posi1=0, posi2=0;
+    int No=0, posi1=0, posi2=0;
     float tar=0.0, x=0.0, y=0.0, z=0.0;
     float a[999];
     void inptNo()
     {
         cout<<"No. of Inputs?\n";
-        cin>>i;
+        cin>>No;
     }
     void inpt()
     {
         cout<<"\nEnter your inputs\n";
-        for(int j=0;j<i;j++)
+        for(int j= 0; j< No; j++)
         {
             cin>>a[j];
         }
@@ -27,9 +27,9 @@ class Ok
     }
     void calc()
     {
-        for(int k=0;k<i;k++)
+        for(int k= 0; k< No; k++)
         {
-            for(int l=0;l<i;l++)
+            for(int l= 0; l< No; l++)
             {
                 if(k==l)
                 {
