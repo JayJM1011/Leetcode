@@ -98,7 +98,7 @@ int main()
     int ColumnNo= 0, temp= 0, ToChar= 0;
     cout<<"Enter Column No.\t"; cin>>ColumnNo;
     string str= "0000000000";
-    int i= 0, j= 0;
+    int i= 0;
     for(i= 9; i>=0; i--)
     {
         temp= pow(26, i);
