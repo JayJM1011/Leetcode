@@ -31,7 +31,7 @@ int main()
     }
     cout<<"\nInput 1 in 8-bit "<<s1<<"\nInput 2 in 8-bit "<<s2;                         //Re-display input in 8-bit
     x= 7; y= 7; k= 8;                                                                   //Counters
-    for(int i= 0;i< 8; i++)                                                             //Logic
+    for(int i= 0; i< 8; i++)                                                            //Logic
     {
         a=s1[x];
         b=s2[y];
