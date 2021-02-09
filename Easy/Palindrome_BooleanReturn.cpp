@@ -5,9 +5,9 @@ using namespace std;
 class Pal
 {
     public:
-    int y=0, z=0, i=0;
-    string str="";
-    bool Ans=false;
+    int y= 0, z= 0, i= 0;
+    string str= "";
+    bool Ans= false;
 
     void in()
     {
@@ -18,12 +18,12 @@ class Pal
     {
         while(str[i])
             i++;
-        y=i;
-        z=i/2;
+        y= i;
+        z= i/ 2;
     }
     void Pali()
     {
-        for(int j=1;j<=z;j++)
+        for(int j= 1; j<=z; j++)
         {
             if(str[j]!=str[y])
             {
@@ -38,7 +38,7 @@ class Pal
     }
     void ifPali()
     {
-        if(y<=(z-1))
+        if(y<=(z- 1))
         {
             cout<<"\nIt is a Palindrome No. my dude";
         }
