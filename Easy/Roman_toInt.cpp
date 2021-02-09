@@ -20,7 +20,7 @@ class RomToInt
         for(i=0;i<len;i++)
             str[i]=towlower(str[i]);
     }
-    void NoDetermination()
+    void NoDetermination()                                      //Logic
     {
         for(i=0;i<len;i++)
         {
