@@ -4,20 +4,20 @@ using namespace std;
 
 int main()
 {
-    int x=0, y=0, i=0;
+    int x= 0, y= 0, i= 0;
     cout<<"\n";
     cin>>x;
-    bool a=false;
-    string str="";
-    str=str+to_string(x);
+    bool a= false;
+    string str= "";
+    str= str+ to_string(x);
     while(str[i])
         i++;
-    y=i-1;
-    for(int j=0;j<=(i/2);j++)
+    y= i- 1;
+    for(int j= 0; j<=(i/ 2); j++)
     {
         if(str[j]!=str[y])
         {
-            a=false;
+            a= false;
             break;
         }
         else
@@ -25,8 +25,8 @@ int main()
             y--;
         }
     }
-    if(y<=((i/2)-1))
-        a=true;
+    if(y<=((i/ 2)- 1))
+        a= true;
     cout<<a;
     return 0;
 }
