@@ -15,7 +15,7 @@ int main()
         {
             if(str1[i]==str2[j])
             {
-                str2[j]=' ';
+                str2[j]= ' ';
                 break;
             }
         }
