@@ -24,14 +24,14 @@ int main()
     p= 7; r= 7;
     if(y!=8)                                                                            //For the logic to replace in the 8 bit string
         r= y- 1;
-    for(r; r>=0; r--)                                                                     //For loop for replacement
+    for(r; r>=0; r--)                                                                   //For loop for replacement
     {
         s2[p]= st[r];
         p--;
     }
     cout<<"\nInput 1 in 8-bit "<<s1<<"\nInput 2 in 8-bit "<<s2;                         //Re-display input in 8-bit
-    x= 7; y= 7; k= 8;                                                                      //Counters
-    for(int i= 0;i< 8; i++)                                                                //Logic
+    x= 7; y= 7; k= 8;                                                                   //Counters
+    for(int i= 0;i< 8; i++)                                                             //Logic
     {
         a=s1[x];
         b=s2[y];
@@ -67,9 +67,9 @@ int main()
         x--; y--; k--;
     }
     if(z==1)
-        sr[k]= '1';                                                                      //Logic ends
+        sr[k]= '1';                                                                     //Logic ends
     cout<<"\n\nThe Addition Result in 9-Bits is "<<sr;                                  //9-bit Display
-    for(l; l<=3; l++)                                                                     //Remove Extra 0(s)
+    for(l; l<=3; l++)                                                                   //Remove Extra 0(s)
     {
         if(sr[l]=='0')
             sr[l]= '\0';
