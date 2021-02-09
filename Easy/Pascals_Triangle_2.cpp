@@ -14,6 +14,7 @@ int Combination(int x, int y)
     C=(n)/((n_r)*(r));
     return C;
 }
+
 int main()
 {
     int m, i=0, j=0, k=0;
