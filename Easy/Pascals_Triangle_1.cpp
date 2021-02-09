@@ -14,13 +14,14 @@ int Combination(int x, int y)
     C=(n)/((n_r)*(r));
     return C;
 }
+
 int main()
 {
     int m, i=0, j=0, k=0;
     cout<<"Enter No. of Layers\n";
     cin>>m;
     cout<<"\n";
-    for(i=0;i<m;i++)
+    for(i=0;i<m;i++)                            //For each layer
     {
         for(j=0;j<=i;j++)
         {
