@@ -5,10 +5,10 @@ using namespace std;
 class RomToInt
 {
     public:
-    int no=0, len= 0;
-    int i=0;
-    int x=0;
-    string str="";
+    int no= 0, len= 0;
+    int i= 0;
+    int x= 0;
+    string str= "";
     void in()
     {
         cout<<"\nEnter your Roman Number\t\t";
@@ -17,19 +17,19 @@ class RomToInt
     }
     void ToLower()
     {
-        for(i=0;i<len;i++)
-            str[i]=towlower(str[i]);
+        for(i= 0; i< len; i++)
+            str[i]= towlower(str[i]);
     }
     void NoDetermination()                                      //Logic
     {
-        for(i=0;i<len;i++)
+        for(i= 0; i< len; i++)
         {
-            x=0;
+            x= 0;
             if(str[i]=='i')
-                x+=1;
+                x+= 1;
             if(x==1 && str[i+1]=='i')
             {
-                x+=1;
+                x+= 1;
                 i++;
             }
             if(x==2 && str[i+1]=='i')
