@@ -16,8 +16,6 @@ int main()
             j++;
         else if(str[i]==')' || str[i]=='}' || str[i]==']')
             j--;
-        else
-            continue;
     }
     if(j==0)
         Valid= true;
