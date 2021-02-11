@@ -5,7 +5,7 @@ using namespace std;
 class RomToInt
 {
     public:
-    int no= 0, len= 0;
+    int no= 0, len= 0;                                  //Don't
     int i= 0;
     int x= 0;
     string str= "";
