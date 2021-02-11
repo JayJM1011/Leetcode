@@ -1,5 +1,6 @@
 #include <iostream>
-using  namespace std;
+#define cout std::cout
+#define cin std::cin
 //https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif
 int Combination(int x, int y)
 {
