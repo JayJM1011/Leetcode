@@ -22,9 +22,11 @@ int main()
     for(i= 0; i< No; i++)                               //<Outputs>
     {
         if(i==No-1)
+        {
             cout<<arr[i];
-        else
-            cout<<arr[i]<<", ";
+            return 0;
+        }
+        cout<<arr[i]<<", ";
     }                                                   //</Outputs>
     return 0;
 }
