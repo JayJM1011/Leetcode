@@ -7,26 +7,25 @@ int main()
     int no= 0, n= 0, arr[100], temp= 0;
     int i= 0, j= 0;
     cout<<"Enter No. of Elements\t";    cin>>no;    n=no;       //Inputs
-    while(i<no)
+    while(i< no)
     {
         cin>>arr[i];
         i++;
     }
     for (i= 0; i< no;i++)                                       //Logic
     {
-        temp= arr[i];
-        if(temp==0)                                             //Condition to Bubble if 0 is found
+        for(j= 0; j< no- 1; j++)
         {
-            for(j=i;j< no-1;j++)
+            if(arr[j]==0)
             {
                 temp= arr[j];
-                arr[j]= arr[j+1];
-                arr[j+1]= temp;
+                arr[j]= arr[j+ 1];
+                arr[j+ 1]= temp;
             }
         }
     }
-    i=0;
-    while(i<n)                                                  //Display
+    i= 0;
+    while(i< n)                                                 //Display
     {
         cout<<arr[i];
         i++;
