@@ -5,9 +5,8 @@ using namespace std;
 int main()
 {
     int x= 0, y= 0, i= 0;
-    cout<<"\n";
+    cout<<"Enter to check if Palindrome\n";
     cin>>x;
-    bool a= false;
     string str= "";
     str= str+ to_string(x);
     while(str[i])
@@ -17,16 +16,31 @@ int main()
     {
         if(str[j]!=str[y])
         {
-            a= false;
-            break;
-        }
-        else
-        {
-            y--;
-        }
+            cout<<false;
+            return 0;
+        }    
+        y--;
     }
-    if(y<=((i/ 2)- 1))
-        a= true;
-    cout<<a;
+    cout<<true;
     return 0;
 }
+// class Solution
+// {
+//     public:
+//     bool isPalindrome(int x)
+//     {
+//         int i= 0;
+//         string str= "";
+//         str= str+ to_string(x);
+//         while(str[i])
+//             i++;
+//         int y= i- 1;
+//         for(int j= 0; j<=(i/ 2); j++)
+//         {
+//             if(str[j]!=str[y])
+//                 return false;
+//             y--;
+//         }
+//         return true;
+//     }
+// };
