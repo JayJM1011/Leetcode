@@ -41,7 +41,7 @@ class RevInt
         }
         j= 0;
     }
-    void RemZero()
+    void RemZeroAndDisp()
     {
         for(k; k<=i; k++)
         {
@@ -57,12 +57,9 @@ class RevInt
         b= b- a- y;
         cout<<"\nDigits after 0s Removed \t"<<b;
         b--;
-    }
-    void display1()
-    {
         cout<<"\nIn String Datatype\t"<<str<<"\n";
     }
-    void BackToInt()
+    void BackToIntAndDisp()
     {
         if(y==1)
             c=true;
@@ -78,9 +75,6 @@ class RevInt
         }
         if(c)
             sum= -sum;
-    }
-    void display2()
-    {
         cout<<"In int Datatype\t\t"<<sum<<"\n";
     }
 };
@@ -91,9 +85,7 @@ int main()
     Obj.In();
     Obj.ConAndNoOfChar();
     Obj.Rev();
-    Obj.RemZero();
-    Obj.display1();
-    Obj.BackToInt();
-    Obj.display2();
+    Obj.RemZeroAndDisp();
+    Obj.BackToIntAndDisp();
     return 0;
 }
