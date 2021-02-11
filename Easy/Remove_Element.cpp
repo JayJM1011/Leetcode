@@ -2,7 +2,7 @@
 #define cout std::cout
 #define cin std::cin
 
-int main()
+int main()                                  //F
 {
     int  i= 0, j= 0, k= 0;
     int n= 0, rem= 0;
