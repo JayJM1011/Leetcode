@@ -1,5 +1,6 @@
 #include <iostream>
-using namespace std;
+#define cout std::cout
+#define cin std::cin
 
 int main()
 {
