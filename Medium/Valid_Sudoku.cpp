@@ -34,23 +34,17 @@ int main()
     int I= 0, J= 0, K= 0;
     for(i= 0; i< 9; i++)                         //Disp
     {
-        if(i==0)
-        {
-            for(j= 0; j<=9; j++)
-            {
-                if(j==1)
-                    cout<<" ";
-                cout<<j<<". ";
-            }
-            cout<<"\n";
-        }
         for(j= 0; j< 9; j++)
         {
-            if(j==0)
-                cout<<i+ 1<<".  ";
-            cout<<Board[i][j]<<"  ";
+            if(j==3 || j==6)
+                cout<<" | ";
+            cout<<" "<<Board[i][j]<<" ";
         }
         cout<<"\n";
+        if(i==2 || i==5)
+        {
+            cout<<"---------------------------------\n";
+        }
     }
     for(i= 0; i< 9; i++)
     {
