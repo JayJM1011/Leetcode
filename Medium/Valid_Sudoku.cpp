@@ -32,6 +32,8 @@ int main()
 
     int i= 0, j= 0;
     int I= 0, J= 0, K= 0;
+    system("cls");
+    cout<<"\n\n";
     for(i= 0; i< 9; i++)                         //Disp
     {
         for(j= 0; j< 9; j++)
