@@ -15,5 +15,6 @@ int main()
     system("cls");
     int No= 0;
     cout<<"\nEnter No of Stairs\t";     cin>>No;
+    cout<<"\n\nNo. of ways in which you can climb\nUsing Either one step or two is\t"<<Climb(0, No);
     return 0
 }
