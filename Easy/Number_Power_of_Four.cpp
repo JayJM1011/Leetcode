@@ -9,7 +9,7 @@ bool PowOf4(int Num)
     unsigned int x= 4;
     while(x<=Num)
     {
-        if(Num% 2==0 && Num/ (x/ 4)==4)
+        if(Num% x==0 && Num/ (x/ 4)==4)
             return true;
         x= x* 4;
     }
