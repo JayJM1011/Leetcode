@@ -1,9 +1,11 @@
 #include <iostream>
-#include <cmath>
+#define cout std::cout
+#define cin std::cin
 
 int main()
 {
-    int x= 0;
-    std::cout<<"Enter Value\n";     std::cin>>x;
-    std::cout<<"\n"<<pow(x, 0.5);
+    system("cls");
+    int No= 0;
+    cout<<"\nEnter No of Stairs\t";     cin>>No;
+    return 0
 }
