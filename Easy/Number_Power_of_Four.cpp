@@ -20,7 +20,7 @@ int main()
     int Num= 0;
     std::cout<<"Enter number\t";  std::cin>>Num;
     bool y= PowOf4(Num);
-    if(PowOf4(Num))
+    if(y)
     {
         std::cout<<"Power of 4";
         return 0;
