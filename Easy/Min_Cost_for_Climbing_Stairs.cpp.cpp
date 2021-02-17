@@ -26,5 +26,6 @@ int main()
             i++;
         Sum+= Stairs[i];
     }
+    cout<<"\n\n"<<Sum;
     return 0;
 }
