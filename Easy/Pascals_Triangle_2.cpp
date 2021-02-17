@@ -18,13 +18,13 @@ int Combination(int x, int y)
 
 int main()
 {
-    int m= 0, i= 0, j= 0, k= 0;
+    int m= 0, i= 0;
     cout<<"Enter which Layer is to be Displayed\n"; cin>>m;
     cout<<"\n";
     m--;
-    for(j= 0; j<=m; j++)                                   //Only the Layer Specified to be Displayed
+    for( ; i<=m; i++)                                   //Only the Layer Specified to be Displayed
     {
-        cout<<Combination(m, j)<<" ";
+        cout<<Combination(m, i)<<" ";
     }
     return 0;
 }
