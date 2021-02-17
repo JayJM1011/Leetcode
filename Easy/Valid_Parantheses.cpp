@@ -10,7 +10,7 @@ int main()
     int i= 0, j= 0;
     cout<<"Enter String\t"; cin>>str;
     len= str.length();
-    for(i= 0; i< len; i++)
+    for( ; i< len; i++)
     {
         if(str[i]=='(' || str[i]=='{' || str[i]=='[')
             j++;
