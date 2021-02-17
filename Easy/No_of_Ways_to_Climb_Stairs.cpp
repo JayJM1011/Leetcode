@@ -18,3 +18,18 @@ int main()
     cout<<"\n\nNo. of ways in which you can climb\nUsing Either one step or two is\t"<<Climb(0, No);
     return 0
 }
+
+//                     (0, 4)
+//                     /     \
+//                    /     (2, 4)
+//                   /      /    \
+//             (1, 4)    (3, 4) (4, 4)
+//             /    \
+//            /   (3, 4)
+//         (2, 4)
+//         /    \
+//        /    (4, 4)
+//     (3, 4)
+//     /    \
+//    /    (5, 4)
+//  (4, 4)
