@@ -8,7 +8,7 @@ int main()
     int i= 0, j= 0;
     cout<<"Enter Binary String\t";    cin>>str;
     int len= str.length();
-    for(i= 0; i< len; i++)
+    for( ; i< len; i++)
     {
         if(str[i]=='1')
             j++;
