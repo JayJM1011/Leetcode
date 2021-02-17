@@ -16,5 +16,15 @@ int main()
     cout<<"\nEnter the Number of Stairs\t";     cin>>NoOfStairs;
     int Stairs[NoOfStairs]= {0};
     system("cls");
+    cout<<"\nEnter Elements\n";
+    for( ; i< NoOfStairs; i++)
+        cin>>Stairs[i];
+    for(i= 0; i< NoOfStairs- 1; i++)
+    {
+        Mini= Min(Stairs[i], Stairs[i+ 1]);
+        if(Mini==Stairs[i+ 1])
+            i++;
+        Sum+= Stairs[i];
+    }
     return 0;
 }
