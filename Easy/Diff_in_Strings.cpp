@@ -9,9 +9,9 @@ int main()
     cout<<"Enter String 1\t";   cin>>str1;  str1= str1+ ' ';
     cout<<"Enter String 2\t";   cin>>str2;
     int i= 0, j= 0, len= str2.size();
-    for(i= 0; i< len; i++)
+    for( ; i< len; i++)
     {
-        for(j= 0; j< len; j++)
+        for( ; j< len; j++)
         {
             if(str1[i]==str2[j])
             {
