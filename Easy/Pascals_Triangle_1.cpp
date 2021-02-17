@@ -21,9 +21,9 @@ int main()
     int m= 0, i= 0, j= 0, k= 0;
     cout<<"Enter No. of Layers\n";  cin>>m;
     cout<<"\n";
-    for(i= 0; i< m; i++)                            //For each layer
+    for( ; i< m; i++)                            //For each layer
     {
-        for(j= 0; j<=i; j++)
+        for( ; j<=i; j++)
         {
             for(k= m- 1- i+ j; k>=0; k--)
                 cout<<" ";
