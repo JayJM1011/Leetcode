@@ -9,7 +9,7 @@ bool PowOf4(int Num)
     unsigned int x= 4;
     while(x<=Num)
     {
-        if(Num% x==0 && Num/ (x/ 4)==4)
+        if(Num% 2==0 && Num/ (x/ 4)==4)
             return true;
         x= x* 4;
     }
@@ -20,7 +20,7 @@ int main()
     int Num= 0;
     std::cout<<"Enter number\t";  std::cin>>Num;
     bool y= PowOf4(Num);
-    if(y)
+    if(PowOf4(Num))
     {
         std::cout<<"Power of 4";
         return 0;
