@@ -69,7 +69,7 @@ int main()
             K= 0;
             for(J= 0; J< 9; J++)                //Horizontal Check
             {
-                if(Board[i][J]==Board[i][j])
+                if(Board[i][J] == Board[i][j])
                     K++;
                 if(K==2)
                 {
